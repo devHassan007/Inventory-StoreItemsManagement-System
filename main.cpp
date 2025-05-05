@@ -1,14 +1,13 @@
-#include<iostream>
-#include "MenuHeader.h"
+#include <iostream>
+#include "ProcessHeader.h"
 
 using namespace std;
-using namespace MainMenu;
+using namespace Process;
 
 int main()
 {
-	Menu menu;
+	Process1 first;
 	
-	menu.start();
-	
+	first.start();	  
 }
 
